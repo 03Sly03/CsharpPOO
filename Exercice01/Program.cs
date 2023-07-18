@@ -5,6 +5,7 @@
  * 4. Afficher toutes les chaises (Possibilité de simplifier avec une méthode ToString)
 */
 
+using Exercices;
 using Exercices.Classes;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -53,8 +54,8 @@ Employee.Infos();*/
 
 // LE PENDU
 
-
-
+IHM.Start();
+/*
 LePendu game = new LePendu();
 Console.WriteLine("essai avant : " + game.NbTry);
 
@@ -96,7 +97,7 @@ for (int i = 0; i < totalTry; i++)
     Console.WriteLine("Le mot à trouver : " + game.Mask);
     Console.WriteLine($"Il vous reste {game.NbTry} essais");
 }
-
+*/
 
 // CITERNE
 /*

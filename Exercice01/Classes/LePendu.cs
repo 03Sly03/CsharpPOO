@@ -13,12 +13,12 @@ namespace Exercices.Classes
         private string _mask;
         private int _nbTry;
         private string _wordToFind;
+        private int _nbEssaiMax = 10;
 
         public string Mask { get => _mask; set => _mask = value; }
         public int NbTry { get => _nbTry; set => _nbTry = value; }
         public string WordToFind { get => _wordToFind; set => _wordToFind = value; }
-
-
+        public int NbEssaiMax { get => _nbEssaiMax; set => _nbEssaiMax = value; }
 
         public LePendu(int nbTry = 10)
         {
