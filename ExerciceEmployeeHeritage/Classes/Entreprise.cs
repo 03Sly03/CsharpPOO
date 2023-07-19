@@ -40,6 +40,12 @@ namespace ExerciceEmployeeHeritage.Classes
                     return $"------------------------\nJe suis un commerciale\nLe salaire fixe de {commercial.Nom} est de {commercial.Salaire} euros\nLe salaire avec commission de {commercial.Nom} est de {(decimal)((double)commercial.Salaire * (1 + commercial.Commission / 100))} euros\n------------------------\n";
             }
             return "L'employé n'existe pas";
+
+            // Alternative :
+            // Salarie? salarie = _salarieList.Find(sal => sal.Nom.ToLower().Contains(nameToFindToLower)); // Find est une méthode LINQ, elle permet de chercher un élélment selon un prédicat. Un predicat est un genre de fonction qui prend chaque salarié et s'assure si une condition est vrai ou fausse.
+
+            // Pour avoir une liste d'occurence:
+            // List<Salarie> salaries = _salarieList.Where(sal => sal.Nom.ToLower().Contains(nameToFindToLower)).ToList();
         }
 
         public override string ToString()

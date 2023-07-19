@@ -1,6 +1,6 @@
 ﻿using ExerciceCompteBancaire.Classes;
 
-Client client = new Client("Mairesse", "Guillaume", "FR00 1234 5678 9123 4567 8912 345");
+/*Client client = new Client("Mairesse", "Guillaume", "FR00 1234 5678 9123 4567 8912 345");
 Console.WriteLine("Client :");
 Console.WriteLine(client);
 Console.WriteLine("--------------------");
@@ -24,4 +24,4 @@ Console.WriteLine(compte);
 Console.WriteLine("--------------------");
 Console.WriteLine("Retrait de 500");
 compte.Retrait(500);
-Console.WriteLine(compte);
+Console.WriteLine(compte);*/

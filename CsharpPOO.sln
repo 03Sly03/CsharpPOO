@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoHeritageOverrideAbstrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceEmployeeHeritage", "ExerciceEmployeeHeritage\ExerciceEmployeeHeritage.csproj", "{7203D350-8512-4B8D-965F-F6F0712407D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceCompteBancaire", "ExerciceCompteBancaire\ExerciceCompteBancaire.csproj", "{AB515A37-CCC4-4E98-8832-6462891E6144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoInterface", "DemoInterface\DemoInterface.csproj", "{929C79B1-F093-4D44-B0A4-6923597D5708}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{7203D350-8512-4B8D-965F-F6F0712407D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7203D350-8512-4B8D-965F-F6F0712407D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7203D350-8512-4B8D-965F-F6F0712407D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB515A37-CCC4-4E98-8832-6462891E6144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB515A37-CCC4-4E98-8832-6462891E6144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB515A37-CCC4-4E98-8832-6462891E6144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB515A37-CCC4-4E98-8832-6462891E6144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929C79B1-F093-4D44-B0A4-6923597D5708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929C79B1-F093-4D44-B0A4-6923597D5708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929C79B1-F093-4D44-B0A4-6923597D5708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929C79B1-F093-4D44-B0A4-6923597D5708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
