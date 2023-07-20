@@ -1,10 +1,11 @@
-﻿using ExerciceCompteBancaire.Classes;
+﻿/*using ExerciceCompteBancaire.Classes;
 
-/*Client client = new Client("Mairesse", "Guillaume", "FR00 1234 5678 9123 4567 8912 345");
+Client client = new Client("Mairesse", "Guillaume", "FR00 1234 5678 9123 4567 8912 345");
 Console.WriteLine("Client :");
 Console.WriteLine(client);
-Console.WriteLine("--------------------");
-var compte = new CompteCourant(client);
+Console.WriteLine("--------------------");*/
+
+/*var compte = new CompteCourant(client);
 client.CompteBancaires.Add(compte);
 client.CompteBancaires.Add(new CompteEpargne(client));
 client.CompteBancaires.Add(new ComptePayant(client));
