@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceHotel", "ExerciceHo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDelegate", "DemoDelegate\DemoDelegate.csproj", "{C76DBE33-B14B-48EA-B03E-342A6ABFF2AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLINQ", "DemoLINQ\DemoLINQ.csproj", "{747A2FBE-053C-4BC3-9BF5-E43AE5F40CF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{C76DBE33-B14B-48EA-B03E-342A6ABFF2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C76DBE33-B14B-48EA-B03E-342A6ABFF2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C76DBE33-B14B-48EA-B03E-342A6ABFF2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747A2FBE-053C-4BC3-9BF5-E43AE5F40CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747A2FBE-053C-4BC3-9BF5-E43AE5F40CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747A2FBE-053C-4BC3-9BF5-E43AE5F40CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747A2FBE-053C-4BC3-9BF5-E43AE5F40CF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
